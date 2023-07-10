@@ -39,7 +39,7 @@ p {
     text-align: center;
 }
 
-a.btn {
+.btn {
     border-radius: 8px;
     background-color: #E55473;
     display: inline-block;
@@ -52,9 +52,11 @@ a.btn {
     color: #fff;
     text-decoration: none;
     transition: 0.3s;
+    border: 0;
+    cursor: pointer;
 }
 
-a.btn:hover {
+.btn:hover {
     background-color: #272727;
     color: #fff;
 }
@@ -64,6 +66,10 @@ a.btn:hover {
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 15px;
+}
+
+.section-title p {
+    margin-bottom: 30px;
 }
 
 .space-bottom {
@@ -159,8 +165,9 @@ a.btn:hover {
 /* cta css start  */
 .cta-area {
     padding-top: 40px;
-    padding-bottom: 60px;
+    padding-bottom: 120px;
 }
+
 .cta-bg {
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
@@ -183,3 +190,84 @@ a.btn:hover {
 }
 
 /* cta css end  */
+
+
+/* hot deal css start  */
+.hot-deal-content-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hot-deal-left span {
+    color: #E55473;
+}
+
+.hot-deal-bg {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 100px 0;
+}
+
+/* hot deal css end */
+
+/* instragram css start  */
+.instragram-area {
+    padding: 110px 0;
+}
+
+.instragram-image-wrap {
+    display: flex;
+    gap: 24px;
+}
+
+.instragram-image {
+    overflow: hidden;
+}
+
+.instragram-image img {
+    transition: 0.3s;
+}
+
+.instragram-image:hover img {
+    transform: scale(1.05);
+}
+
+/* instragram css end  */
+
+
+/* newslater css start  */
+.newslater-bg {
+    background-image: url('../images/newslater-bg.png');
+    padding: 120px 0;
+}
+
+.newslater-form input {
+    width: 100%;
+    border-radius: 8px;
+    background: #FFF;
+    height: 64px;
+    outline: 0;
+    border: 0;
+    padding: 0 25px;
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+.newslater-form input:focus{
+    border-color: #E55473;
+}
+.newslater-form input::placeholder {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.newslater-form {
+    max-width: 870px;
+    margin: auto;
+}
+.newslater-form form {
+    display: flex;
+    gap: 16px;
+}
+/* newslater css end  */
