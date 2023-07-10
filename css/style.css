@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body, h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto Slab', serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    line-height: 1.1;
+}
+
+.content-box{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+a.btn {
+    border-radius: 8px;
+    background-color: #E55473;
+    display: inline-block;
+    height: 64px;
+    line-height: 64px;
+    padding: 0 40px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a.btn:hover{
+    background-color: #272727;
+    color: #fff;
+}
+/* header css start  */
+.header-bg{
+    background: rgba(229, 84, 115, 0.10);
+}
+.header-content-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+.header-content h2 {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.header-content p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 36px;
+}
+/* header css end  */
